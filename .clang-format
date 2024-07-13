@@ -1,0 +1,91 @@
+---
+# BASIC
+IndentWidth:    4
+ColumnLimit:    100
+UseTab:         Never
+
+---
+# Cpp
+Language:                       Cpp
+Standard:                       c++20
+PointerAlignment:               Left
+QualifierAlignment:             Left
+
+# Align
+AlignAfterOpenBracket:          Align
+AlignArrayOfStructures:         Right
+AlignConsecutiveAssignments:
+    Enabled:            true
+    AcrossEmptyLines:   false
+    AcrossComments:     false
+    AlignCompound:      true
+    PadOperators:       true
+AlignConsecutiveBitFields:      Consecutive
+AlignConsecutiveDeclarations:   Consecutive
+AlignConsecutiveMacros:         Consecutive
+AlignEscapedNewlines:           Right 
+AlignOperands:                  AlignAfterOperator
+
+# Allow
+AllowShortBlocksOnASingleLine:          Empty
+AllowShortCaseLabelsOnASingleLine:      false
+AllowShortFunctionsOnASingleLine:       Inline
+AllowShortIfStatementsOnASingleLine:    AllIfsAndElse
+
+# Always
+AlwaysBreakBeforeMultilineStrings:  true
+AlwaysBreakTemplateDeclarations:    Yes
+
+# BinPack
+BinPackArguments:   true
+BinPackParameters:  false
+
+# BraceWrapping
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterCaseLabel:         false
+    AfterClass:             true
+    AfterControlStatement:  Always
+    AfterEnum:              false
+    AfterFunction:          true
+    AfterNamespace:         false
+    AfterStruct:            true
+    AfterUnion:             true
+    BeforeCatch:            true
+    BeforeElse:             true
+    BeforeLambdaBody:       true
+    BeforeWhile:            false
+    IndentBraces:           false
+
+BreakBeforeConceptDeclarations: Always
+BreakConstructorInitializers:   BeforeComma
+BreakInheritanceList:           BeforeComma
+
+Cpp11BracedListStyle:           true
+
+EmptyLineAfterAccessModifier:   Never
+EmptyLineBeforeAccessModifier:  LogicalBlock
+
+IncludeBlocks: Merge
+
+IndentCaseBlocks:       true
+IndentRequiresClause:   true
+IndentAccessModifiers:  false
+LambdaBodyIndentation:  OuterScope
+
+MaxEmptyLinesToKeep:    1
+
+PenaltyBreakBeforeFirstCallParameter:   200
+PenaltyBreakOpenParenthesis:            200
+
+SortIncludes:           CaseSensitive
+SortUsingDeclarations:  true
+
+SpaceBeforeAssignmentOperators:     true
+SpaceBeforeCaseColon:               false
+SpaceBeforeRangeBasedForLoopColon:  false
+SpaceBeforeSquareBrackets:          false
+SpaceInEmptyBlock:                  true
+SpacesInAngles:                     false
+---
+
