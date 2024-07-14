@@ -1,6 +1,6 @@
-#include <iostream>
+#include "servemd/core/server.hpp"
 
 int main()
 {
-    std::cout << "Hello Server!" << std::endl;
+    servermd::core::Server().run();
 }

@@ -1,3 +1,4 @@
 target_include_directories(${PROJECT_NAME} PUBLIC
     inc/)
-target_sources(${PROJECT_NAME} PRIVATE)
+target_sources(${PROJECT_NAME} PRIVATE
+    src/server.cpp)
